@@ -246,3 +246,11 @@ footer a {
         height: 280px;
     }
 }
+.profile-photo {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
