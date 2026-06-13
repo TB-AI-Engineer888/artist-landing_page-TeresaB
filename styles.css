@@ -250,19 +250,14 @@ footer a {
     height: auto;
     margin: 2rem auto;
     border-radius: 8px;
+    border: 4px solid #c8a96e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 #about h2 {
     text-align: center !important;
 }
-.profile-photo {
-    border: 1px solid #d8cec2;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
-}
-.profile-photo {
-    border: 4px solid #c8a96e;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
+
 #career li {
     margin-bottom: 12px;
 }
