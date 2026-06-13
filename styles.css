@@ -255,3 +255,7 @@ footer a {
 #about h2 {
     text-align: center !important;
 }
+.profile-photo {
+    border: 1px solid #d8cec2;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
