@@ -258,6 +258,16 @@ footer a {
     text-align: center !important;
 }
 
-#career li {
+#career li {#music {
+    text-align: center;
+}
+
+.music-thumbnail {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
     margin-bottom: 12px;
 }
