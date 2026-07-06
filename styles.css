@@ -261,3 +261,14 @@ footer a {
 #career li {
     margin-bottom: 12px;
 }
+#music {
+    text-align: center;
+}
+
+.music-thumbnail {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
