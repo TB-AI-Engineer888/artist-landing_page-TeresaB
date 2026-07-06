@@ -112,36 +112,8 @@ h3 {
     color: var(--text-soft);
 }
 
-h4 {
-    margin-top: 24px;
-    margin-bottom: 12px;
-    color: var(--text-soft);
-}
-
 p {
     margin-bottom: 18px;
-}
-
-#about h2 {
-    text-align: center;
-}
-
-.profile-photo {
-    display: block;
-    width: 250px;
-    max-width: 100%;
-    height: auto;
-    margin: 2rem auto;
-    border-radius: 8px;
-    border: 4px solid #c8a96e;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-#career,
-#upcoming-shows,
-#music,
-#contact {
-    max-width: 900px;
 }
 
 #career h3 {
@@ -156,10 +128,6 @@ p {
 #career ul {
     margin-bottom: 28px;
     padding-left: 24px;
-}
-
-#career li {
-    margin-bottom: 12px;
 }
 
 #gallery {
@@ -218,16 +186,10 @@ p {
     margin-bottom: 0;
 }
 
-#music {
-    text-align: center;
-}
-
-.music-thumbnail {
-    width: 100%;
-    max-width: 560px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+#career,
+#upcoming-shows,
+#contact {
+    max-width: 900px;
 }
 
 footer {
@@ -279,4 +241,23 @@ footer a {
     .gallery-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.profile-photo {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 8px;
+    border: 4px solid #c8a96e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#about h2 {
+    text-align: center !important;
+}
+
+#career li {
+    margin-bottom: 12px;
 }
