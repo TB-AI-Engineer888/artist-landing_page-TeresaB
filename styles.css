@@ -188,6 +188,7 @@ p {
 
 #career,
 #upcoming-shows,
+#music,
 #contact {
     max-width: 900px;
 }
@@ -253,11 +254,16 @@ footer a {
     border: 4px solid #c8a96e;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
 #about h2 {
     text-align: center;
 }
 
-#career li {#music {
+#career li {
+    margin-bottom: 12px;
+}
+
+#music {
     text-align: center;
 }
 
@@ -267,6 +273,4 @@ footer a {
     height: auto;
     display: block;
     margin: 0 auto;
-}
-    margin-bottom: 12px;
 }
